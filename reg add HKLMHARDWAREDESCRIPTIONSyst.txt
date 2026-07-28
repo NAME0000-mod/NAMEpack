@@ -1,0 +1,4 @@
+reg add "HKLM\HARDWARE\DESCRIPTION\System\BIOS" /v SystemProductName /t REG_SZ /d "System Product Name" /f
+reg add "HKLM\HARDWARE\DESCRIPTION\System\BIOS" /v SystemManufacturer /t REG_SZ /d "ASUSTeK COMPUTER INC." /f
+reg add "HKLM\HARDWARE\DESCRIPTION\System\BIOS" /v BaseGameManufacturer /t REG_SZ /d "ASUSTeK COMPUTER INC." /f
+reg add "HKLM\HARDWARE\DESCRIPTION\System\BIOS" /v BIOSVersion /t REG_SZ /d "American Megatrends Inc. 2001" /f
